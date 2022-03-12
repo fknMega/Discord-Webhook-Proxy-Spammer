@@ -150,7 +150,7 @@ namespace Discord_Webhook_Proxy_Spammer
                     {
                         if (ex.Message.Contains("canary.discord.com"))
                         {
-                            Console.WriteLine(proxy + " dead " + ex.Message);
+                            Console.WriteLine(proxy + " dead ");
                         }
                         else
                         {
